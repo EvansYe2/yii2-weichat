@@ -1,0 +1,25 @@
+{
+    "name": "evans/yii2-weichat",
+    "description": "weichat sdk for Yii2",
+    "keywords": ["yii", "weichat", "ucpaas", "yii2-weichat"],
+    "license": "MIT",
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "EvansYe",
+            "email": "evanscslg@sina.cn"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/EvansYe2/yii2-weichat/issues",
+        "source": "https://github.com/EvansYe2/yii2-weichat"
+    },
+    "require": {
+        "yiisoft/yii2": "~2.0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "evans\\weichat\\": "src/"
+        }
+    }
+}
